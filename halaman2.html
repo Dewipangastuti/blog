@@ -1,0 +1,197 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="deskripsi" content="Dasar Jaringan">
+	<meta name="keywords" content="Jaringan Komputer, Jaringan">
+	<meta name="author" content="Dewi Pangastuti">
+	<title>Topologi Jaringan Komputer</title>
+	<link rel="shortcut icon" href="lgo.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div id="class">
+		<nav>
+			<div id="menu-wrap">
+				<ul>
+					<li><a href="contact.html"><img id="bit" src="bi.png" alt="logo"height="55px"></a>
+					</li>
+					<li><a href="index.html" target="_blank">Beranda</a>
+					</li>
+					<li><a href="contact.html">Tentang kami</a>
+					</li>
+				</ul>
+		</nav>
+		</div>
+		<div><div id="banner"><a href="contact.html" target="_blank"> <img id="bn" src="bn.png" alt="komputer" height="400px" width="100%"></a></div>
+		<div id="sidebar">
+			<div id="daftar">
+				<p id="daf">Daftar Isi
+					<hr>
+					<ul>
+						<li><a href="#bus">Topologi bus</a>
+						</li>
+						<li><a href="#star">Topologi Star</a>
+						</li>
+						<li><a href="#ring">Topologi Ring</a>
+						</li>
+						<li><a href="#mesh">Topologi Mesh</a>
+						</li>
+						<li><a href="#tree">Topologi Tree</a>
+						</li>
+					</ul>
+			</div>
+			<div id="info">
+				<p id="inf">Info </p>
+				website ini digunakan sebagai sarana untuk belajar banyak hal mengenai komputer. Silahkan sampaikan <a href="contact.html" target="_blank">Kritik dan Saran</a> agar kedepannya website ini menjadi lebih baik.
+			</div>
+		</div>
+		<div id="content">
+			<h2 id="topologi">Topologi Jaringan Komputer</h2> 
+			<br>
+			<img src="tp.png" alt="jaringan Wire, wireless">
+			<p>Topologi jaringan adalah suatu cara / konsep yang digunakan untuk menghubungkan dua komputer atau lebih, berdasarkan hubungan geometris antara unsur-unsur dasar penyusun jaringan, yaitu node, link, danstation. Pemilihan topologi jaringan didasarkan pada skala jaringan, biaya, tujuan, dan pengguna. Topologi pertama kali yang digunakan adalah topologi bus. setiap topoologi memiliki kekurangan dan kelebihannya masing-masing</p>
+			<br>
+			<br>
+			<p>Topologi ini adalah topologi yang pertama kali digunakan untuk menghubungkan komputer. dalam topologi ini masing-masing komputer aka terhububng ke satu kabel panjang dengan beberapa terminal, dan pada akhir dari kable harus di akhiri dengan satu terminator. Topologi ini sudah sangat jarang digunakan didalam membangun jaringan komputer biasa karena memiliki beberapa kekurangan diantaranya kemungkinan terjadi nya tabrakan aliran data, jika salah satu perangkat putus atau terjadi kerusakan pada satu bagian komputer maka jaringan langsung tidak akan berfungsi sebelum kerusakan tersebut di atasi.</p>
+			<br>
+			<h2 id="bus">Topologi Bus</h2>
+			<img src="tb.png" alt="topologi bus">
+			<p>Topologi ini adalah topologi yang pertama kali digunakan untuk menghubungkan komputer. dalam topologi ini masing-masing komputer aka terhububng ke satu kabel panjang dengan beberapa terminal, dan pada akhir dari kable harus di akhiri dengan satu terminator. Topologi ini sudah sangat jarang digunakan didalam membangun jaringan komputer biasa karena memiliki beberapa kekurangan diantaranya kemungkinan terjadi nya tabrakan aliran data, jika salah satu perangkat putus atau terjadi kerusakan pada satu bagian komputer maka jaringan langsung tidak akan berfungsi sebelum kerusakan tersebut di atasi.</p> <br>
+			<li>Karakteristik Topologi Bus</li>
+			<ol style="list-style-position: inside;" type="1">
+				<li>Node – node dihubungkan secara serial sepanjang kabel, dan pada kedua ujung kabel ditutup dengan terminator.</li>
+				<li>Sangat sederhana dalam instalasi.</li>
+				<li>Sangat ekonomis dalam biaya.</li>
+				<li>Paket-paket data saling bersimpangan pada suatu kabel.</li>
+				<li>Tidak diperlukan hub, yang banyak diperlukanadalah Tconnector pada setiap ethernet card.</li>
+				<li>Problem yang sering terjadi adalah jika salah satu node rusak, maka jaringan keseluruhan dapat down, sehingga seluruh node tidak bisa berkomunikasi dalam jaringan tersebut.</li>
+			</ol><br>
+			<p>
+				<li>Kelebihan Topologi Bus</li>
+				<ol style="list-style-position: inside;" type="1">
+					<li>Tidak memerlukan sumber daya kabel yang banyak.</li>
+					<li>Sangat sederhana dalam instalasi.</li>
+					<li>Biayanya juga lebih murah dibanding dengan topologi lainnya</li>
+					<li>tidak terlalu rumit jika kita ingin menambah jangkauan jaringan</li>
+				</ol>
+			</p><br>
+			<p>
+				<li>Kekurangan Topologi Bus</li>
+				<ol style="list-style-position: inside;" type="1">
+					<li>Tidak cocok untuk Trafic(lalu lintas) jaringan yang padat.</li>
+					<li>Setiap barrel connector yang digunakan sebagai penghubung memperlemah sinyal elektrik yang dikirimkan, dan kebanyakan akan menghalangi sinyal untuk dapat diterima dengan benar.</li>
+					<li>Sangat sulit untuk melakukan troubleshoot pada bus.</li>
+					<li>Lebih lambat dibandingkan dengan topologi yang lain.</li>
+				</ol>
+			</p><br>
+			<h2 id="star">Topologi Star</h2>
+			<img src="ts.png" alt="topologi star">
+			<p>Seperti namanya susunan pada topologi STAR sama seperti lambang bintang yang biasa kita buat. topologi ini memiliki node inti/tengah yang disambungkan ke node lainnya.</p>
+			</ol><br>
+			<li>Karakteristik Topologi Start</li>
+			<ol style="list-style-position: inside;" type="1">
+				<li>Setiap node berkomunikasi langsung dengan konsentrator (HUB).</li>
+				<li>Bila setiap paket data yang masuk ke consentrator (HUB) kemudian di broadcast keseluruh node yang terhubung sangat banyak (misalnya memakai hub 32 port), maka kinerja jaringan akan semakin turun.</li>
+				<li>Sangat mudah dikembangkan.</li>
+				<li>Jika salah satu ethernet card rusak, atau salah satu kabel pada terminal putus, maka keseluruhhan jaringan masih tetap bisa berkomunikasi atau tidak terjadi down pada jaringan keseluruhan tersebut.</li>
+				<li>Tipe kabel yang digunakan biasanya jenis UTP.</li>
+			</ol><br>
+			<p>
+				<li>Kelebihan Topologi Star</li>
+				<ol  style="list-style-position: inside;" type="1">
+					<li>Cukup mudah untuk mengubah dan menambah komputer ke dalam jaringan yang menggunakan topologi star tanpa mengganggu aktvitas jaringan yang sedang berlangsung.</li>
+					<li>Apabila satu komputer yang mengalami kerusakan dalam jaringan maka komputer tersebut tidak akan membuat mati seluruh jaringan star.</li>
+					<li>Kita dapat menggunakan beberapa tipe kabel di dalam jaringan yang sama dengan hub yang dapat mengakomodasi tipe kabel yang berbeda.</li>
+				</ol><br>
+			</p>
+			<p>
+				<li>Kekurangan Topologi Star</li>
+				<ol style="list-style-position: inside;" type="1">
+					<li>Memiliki satu titik kesalahan, terletak pada hub.Jika hub pusat mengalami kegagalan, maka seluruh jaringan akan gagal untuk beroperasi.</li>
+					<li>Membutuhkan lebih banyak kabel karena semua kabel jaringan harus ditarik ke satu central point, jadi lebih banyak membutuhkan lebih banyak kabel daripada topologi jaringan yang lain.</li>
+					<li>Jumlah terminal terbatas, tergantung dari port yang ada pada hub.</li>
+					<li>Lalulintas data yang padat dapat menyebabkan jaringan bekerja lebih lambat .</li>
+				</ol><br>
+			</p>
+			<br>
+			<h2 id="ring">Topologi Ring</h2>
+			<img src="tr.png" alt="topologi ring">
+			<p>Topologi ring digunakan dalam jaringan yang memiliki performance tinggi, jaringan yang membutuhkan bandwidth untuk fitur yang time-sensitive seperti video dan audio, atau ketika performance dibutuhkan saat komputer yang terhubung ke jaringan dalam jumlah yang banyak.
+				<br>Pada Topologi cincin, masing-masing titik/node berfungsi sebagai repeater yang akan memperkuat sinyal disepanjang sirkulasinya, artinya masing-masing perangkat saling bekerjasama untuk menerima sinyal dari perangkat sebelumnya kemudian meneruskannya pada perangkat sesudahnya, proses menerima dan meneruskan sinyal data ini dibantu oleh TOKEN.</p>
+			</ol><br>
+			<li>Karakteristik Topologi Ring</li>
+			<ol style="list-style-position: inside;" type="1">
+				<li>Node-node dihubungkan secara serial di sepanjang kabel, dengan bentuk jaringan seperti lingkaran.</li>
+				<li>Sangat sederhana dalam layout seperti jenis topologi bus.</li>
+				<li>Paket-paket data dapat mengalir dalam satu arah (kekiri atau kekanan) sehingga collision dapat dihindarkan.</li>
+				<li>Problem yang dihadapi sama dengan topologi bus, yaitu: jika salah satu node rusak maka seluruh node tidak bisa berkomunikasi dalam jaringan tersebut.</li>
+				<li>ipe kabel yang digunakan biasanya kabel UTP atau Patch Cable (IBM tipe 6).</li>
+			</ol><br>
+			<p>
+				<li>Kelebihan Topologi Ring</li>
+				<ol style="list-style-position: inside;" type="1">
+					<li>Data mengalir dalam satu arah sehingga terjadinya collision dapat dihindarkan.</li>
+					<li>Aliran data mengalir lebih cepat karena dapat melayani data dari kiri atau kanan dari server.</li>
+					<li>KDapat melayani aliran lalulintas data yang padat, karena data dapat bergerak kekiri atau kekanan.</li>
+					<li>Waktu untuk mengakses data lebih optimal.</li>
+				</ol><br>
+			</p>
+			<p>
+				<li>Kekurangan Topologi Ring</li>
+				<ol style="list-style-position: inside;" type="1">
+					<li>Apabila ada satu komputer dalam ring yang gagal berfungsi, maka akan mempengaruhi keseluruhan jaringan.</li>
+					<li>Menambah atau mengurangi komputer akan mengacaukan jaringan.</li>
+					<li>Jumlah terminal terbatas, tergantung dari port yang ada pada hub.</li>
+					<li>Sulit untuk melakukan konfigurasi ulang.</li>
+				</ol><br>
+			</p>
+			<h2 id="mesh">Topologi Mesh</h2>
+			<img src="tm.png" alt="topologi mesh">
+			<p>Topologi mesh adalah topologi gabungan dari topologi Ring dan Star yang sudah saya jelaskan diatas. Topologi mesh adalah suatu bentuk hubungan antar perangkat dimana setiap perangkat terhubung secara langsung ke perangkat lainnya yang ada di dalam jaringan. Akibatnya, dalam topologi mesh setiap perangkat dapat berkomunikasi langsung dengan perangkat yang dituju (dedicated links).</p><br>
+			<li>Karakteristik Topologi Mesh</li>
+			<ol style="list-style-position: inside;" type="1">
+				<li>Topologi mesh memiliki hubungan yang berlebihan antara peralatan-peralatan yang ada.</li>
+				<li>Susunannya pada setiap peralatan yang ada didalam jaringan saling terhubung satu sama lain.</li>
+				<li>Jika jumlah peralatan yang terhubung sangat banyak, tentunya ini akan sangat sulit sekali untuk dikendalikan dibandingkan hanya sedikit peralatan saja yang terhubung.</li>
+			</ol><br>
+			<p>
+				<li>Kelebihan Topologi Mesh</li>
+				<ol style="list-style-position: inside;" type="1">
+					<li>Keuntungan utama dari penggunaan topologi mesh adalah fault tolerance.</li>
+					<li>Terjaminnya kapasitas channel komunikasi, karena memiliki hubungan yang berlebih.</li>
+					<li>Relatif lebih mudah untuk dilakukan troubleshoot.</li>
+				</ol><br>
+			</p>
+			<p>
+				<li>Kekurangan Topologi Mesh</li>
+				<ol style="list-style-position: inside;" type="1">
+					<li>Sulitnya pada saat melakukan instalasi dan melakukan konfigurasi ulang saat jumlah komputer dan peralatan-peralatan yang terhubung semakin meningkat jumlahnya.</li>
+					<li>Biaya yang besar untuk memelihara hubungan yang berlebih.</li>
+				</ol><br>
+			</p>
+			<h2 id="tree">Topologi Tree</h2>
+			<img src="tt.png" alt="topologi Tree">
+			<p>Topologi jaringan komputer Tree merupakan gabungan dari beberapa topologi star yang dihubungan dengan topologi bus, jadi setiap topologi star akan terhubung ke topologi star lainnya menggunakan topologi bus, biasanya dalam topologi ini terdapat beberapa tingkatan jaringan, dan jaringan yang berada pada tingkat yang lebih tinggi dapat mengontrol jaringan yang berada pada tingkat yang lebih rendah.</p>
+			<br>
+			<p>Kelebihan topologi tree adalah mudah menemukan suatu kesalahan dan juga mudah melakukan perubahan jaringan jika diperlukan.
+				<br>
+				<br>
+			</p>
+			<p>Kekurangan nya yaitu menggunakan banyak kabel, sering terjadi tabrakan dan lambat, jika terjadi kesalahan pada jaringan tingkat tinggi, maka jaringan tingkat rendah akan terganggu juga</p>
+			<br>
+			<br>
+			<br>
+
+			<br>
+		</div>
+	</div>
+	<div>
+		<footer>
+			
+			<p><img id="bi" src="bi.png" alt="logo"></p>
+		</footer>
+	</div>
+	</div>
+</body>
+</html
